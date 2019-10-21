@@ -9,7 +9,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - 38:6b:72:4a:f3:7b:a7:da:1b:a5:a1:19:0e:af:fa:a6 dhananjaya.k@thinkpalm.com
+            - 38:6b:72:4a:f3:7b:a7:da:1b:a5:a1:19:0e:af:fa:a6
       - run:
           name: Setup Virtual Environment
           command: |
